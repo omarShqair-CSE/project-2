@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Noto+Serif&display=swap");
+/* Public */
+* {
+  margin: 0;
+  padding: 0;
+}
+.clrfix {
+  clear: both;
+}
+body {
+  font-family: Noto Serif;
+}
+ul {
+  list-style-type: none;
+}
+.contaner {
+  width: 75%;
+  margin: auto;
+}
+/*Header Section*/
+.header {
+  background-image: url(../img/7.jpg);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+
+.header .over {
+  height: 100%;
+  background-color: rgba(18, 131, 218, 0.85);
+}
+
+/* Navbar Section*/
+.navbar .nav {
+  width: 75%;
+  text-align: right;
+}
+.navbar .logo h2 {
+  float: left;
+  margin-top: 30px;
+  padding-left: 150px;
+  color: white;
+}
+
+.navbar .nav ul li {
+  display: inline-block;
+}
+.navbar .nav ul li a {
+  float: left;
+  margin-top: 0px;
+  color: rgba(245, 235, 235, 0.711);
+  text-decoration: none;
+  margin-right: 30px;
+}
+.navbar .nav ul li a:hover {
+  border: 1px;
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #000;
+  background-color: #fff;
+  border-radius: 40%;
+}
+/*End nacbar*/
+
+/*Start header content*/
+.header-content {
+  text-align: center;
+}
+.header-content h2 {
+  margin-top: 120px;
+  color: #fff;
+  font-size: 60px;
+
+  padding-bottom: 40px;
+}
+.header-content p {
+  font-size: 20px;
+  color: #fff;
+  padding: 0px 420px;
+  margin-bottom: 35px;
+  font-weight: 1200;
+}
+
+.header-content .bt1 {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  background-color: #11af22;
+  color: #fff;
+  font-size: 20px;
+
+  font-weight: 700;
+  border-radius: 10%;
+}
+.header-content .bt2 {
+  font-size: 20px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  font-weight: 700;
+  border-radius: 10%;
+  color: #fff;
+  margin-left: 20px;
+}
+.header-content .bt2:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.header-content .bt1:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #04f90cfa;
+}
+/*Start discover content*/
+.discover {
+  background-color: #fff;
+}
+.discover .dis-content {
+  color: #343a40;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+  margin: 60px 10px;
+}
+.discover .dis-content h2 {
+  width: 40%;
+  float: left;
+  width: 40%;
+  color: rgba(23, 12, 236, 0.671);
+}
+.discover .dis-content p {
+  float: left;
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 100px;
+}
+.dis-img .item {
+  width: 33.33%;
+  float: left;
+  margin-bottom: 90px;
+}
+.dis-img .item img {
+  width: 100%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+.dis-img .item h2 {
+  font-size: 20px;
+}
+.dis-img .item p {
+  width: 85%;
+  text-align: left;
+  font-size: 12px;
+  margin: 15px 0;
+}
+.dis-img .item button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10%;
+}
+.dis-img .item button:hover {
+  font-weight: 700;
+  cursor: pointer;
+  background-color: rgba(23, 12, 236, 0.671);
+  color: #fff;
+}
+/*End discover content*/
+
+/*Start Ipad section*/
+.ipad {
+  padding-top: 50px;
+  overflow: hidden;
+  background-color: #f0f2f4;
+}
+.ipad .contaner {
+  padding-top: 30px;
+}
+.ipad .ipad-conatant {
+  float: left;
+  width: 60%;
+}
+.ipad .ipad-conatant h2 {
+  color: rgba(23, 12, 236, 0.671);
+  margin: 10px 0px;
+}
+.ipad .ipad-conatant p {
+  width: 68%;
+  color: #343a40;
+  margin-bottom: 50px;
+}
+.ipad .ipad-img {
+  float: left;
+  width: 40%;
+}
+.ipad .ipad-img img {
+  width: 100%;
+  float: left;
+}
+/*End Ipad section*/
+
+/*Start About section*/
+.about-contanet {
+  float: left;
+}
+.about .about-contanet {
+  margin: 60px 0px;
+
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+  margin: 60px 0px;
+}
+.about .about-contanet h2 {
+  width: 30%;
+  float: left;
+  width: 40%;
+  color: rgba(23, 12, 236, 0.671);
+}
+.about .about-contanet p {
+  width: 30%;
+  float: left;
+  width: 55%;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+.about_menu {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.about .about_menu .item {
+  float: left;
+  width: 33.33%;
+}
+.about .about_menu .item h2 {
+  margin-top: 2px;
+  color: #343a40;
+}
+.about .about_menu .item p {
+  margin-bottom: 25px;
+  margin-top: 6px;
+  color: #343a40;
+  width: 90%;
+}
+.about .about_menu .item i {
+  font-size: 32px;
+  background-color: rgba(23, 12, 236, 0.671);
+  color: #fff;
+  padding: 12px;
+  border-radius: 100%;
+  margin-top: 40px;
+  margin-bottom: 6px;
+}
+.about .about_menu .item .a i {
+  background-color: rgba(23, 12, 236, 0.671);
+}
+.about .about_menu .item .b i {
+  background-color: #df8d00;
+}
+.about .about_menu .item .c i {
+  background-color: #e52e4d;
+}
+.about .about_menu .item .d i {
+  background-color: #11af22;
+}
+.about .about_menu .item .e i {
+  background-color: #7c39ed;
+}
+.about .about_menu .item .f i {
+  background-color: #1283da;
+}
+/*End About section*/
+
+/* Start John section*/
+.john {
+  font-weight: 400;
+  background-color: rgba(23, 12, 236, 0.671);
+  float: left;
+  width: 100%;
+  padding: 50px 0px;
+}
+.john img {
+  width: 10%;
+  height: 10%;
+  float: left;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.john p,
+.john b {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.john b {
+  font-weight: 800;
+}
+/* End John section*/
+
+/* Start socila section*/
+.social {
+  background-color: #f0f2f4;
+  padding: 60px 0px;
+}
+.social .social-about {
+  margin: 60px 0px;
+
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  margin: 30px 0px;
+}
+.social .social-about h2 {
+  width: 30%;
+  float: left;
+  width: 40%;
+  color: rgba(23, 12, 236, 0.671);
+}
+.social .social-about p {
+  width: 30%;
+  float: left;
+  width: 55%;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+.social .soial-img img {
+  float: left;
+  width: 20%;
+  margin-top: 40px;
+}
+/* End socila section*/
+
+/*Start Footer section*/
+.footer {
+  margin: 100px 0px;
+}
+.footer .item {
+  width: 20%;
+  float: left;
+}
+.footer .item .hd {
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.footer .item ul li h3 {
+  font-size: 15px;
+  margin-top: 25px;
+}
+.footer .item ul li button {
+  padding: 10px;
+  margin: 0px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10%;
+  text-decoration: underline;
+}
+.footer .item ul li button:hover {
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgba(23, 12, 236, 0.671);
+  color: #fff;
+  text-decoration: none;
+}
+/*End Footer section*/
